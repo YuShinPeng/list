@@ -1,0 +1,171 @@
+$primary-color:#FFF;
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lightseagreen; 
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+// email,password
+    .email , .password{
+        position: relative;
+        .icon{
+            position: absolute;
+            font-size: 12px;
+            top: 20px;
+            left:4px;
+        }
+
+        .q{
+            position: absolute;
+            font-size: 12px;
+            top:20px;
+            right:2px;
+            width:12px;
+
+            &:hover{
+                cursor:pointer;
+            }
+        }
+
+        label{
+            display: block;
+            font-size: 12px;
+        }
+        input{
+            display: block;
+            padding-left:4px 0 4px 24px;
+        }
+    }
+
+
+// fuction area
+    .function{
+        display: flex;
+        align-items: center;
+        margin:8px 0;
+        justify-content: space-between;
+        padding: 0 65px;
+
+        input{
+            margin:0;
+        }
+
+        label{
+            font-size: 12px;
+        }
+
+        button{
+            font-size: 6px;
+            border:none;
+            background-color: black;
+            border-radius: 4px;
+
+            a{
+                color: white;
+                text-decoration: none;
+                transition: 0.6s;
+                &:hover{
+                    background-color: pink;
+                }
+            }
+        }
+
+
+    }
+
+// 
+    
+    .login{
+        font-size: 6px;
+        border: none;
+        background-color: black;
+        border-radius: 4px;
+        color:white;
+        padding: 6px 16px;
+        margin-bottom: 24px;
+        &:hover{
+            background-color: pink;
+            cursor:pointer;
+        }
+
+    }
+
+   
+
+}
+
+
+// .container1{
+//     text-align: center; 
+//     h1{
+//         margin-top: 10%;
+//     }
+//     .email{
+//         margin-bottom: 24px;
+        
+//     }
+
+//     .name{
+//         margin-bottom: 24px;
+//     }
+
+
+//     .cba{
+//         justify-content: space-between;
+//     }
+
+//     .btn{
+//        margin-top: 24px;
+//        button{
+//         background-color: black;
+//         color:white;
+//        }
+//     }
+// }
+
+
+// .container2{
+//     text-align: center; 
+//     h1{
+//         margin-top: 10%;
+//     }
+//     .email{
+//         margin-bottom: 24px;
+//     }
+//     .name{
+//         margin-bottom: 24px;
+//     }
+
+//     .password{
+//         margin-bottom: 24px;
+//     }
+//     .repeatpassword{
+//         margin-bottom: 24px;
+//     }
+
+
+// }
+
+
+
+
+
+

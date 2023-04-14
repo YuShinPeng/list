@@ -1,0 +1,89 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightseagreen;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.container .email, .container .password {
+  position: relative;
+}
+.container .email .icon, .container .password .icon {
+  position: absolute;
+  font-size: 12px;
+  top: 20px;
+  left: 4px;
+}
+.container .email .q, .container .password .q {
+  position: absolute;
+  font-size: 12px;
+  top: 20px;
+  right: 2px;
+  width: 12px;
+}
+.container .email .q:hover, .container .password .q:hover {
+  cursor: pointer;
+}
+.container .email label, .container .password label {
+  display: block;
+  font-size: 12px;
+}
+.container .email input, .container .password input {
+  display: block;
+  padding-left: 4px 0 4px 24px;
+}
+.container .function {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  justify-content: space-between;
+  padding: 0 65px;
+}
+.container .function input {
+  margin: 0;
+}
+.container .function label {
+  font-size: 12px;
+}
+.container .function button {
+  font-size: 6px;
+  border: none;
+  background-color: black;
+  border-radius: 4px;
+}
+.container .function button a {
+  color: white;
+  text-decoration: none;
+  transition: 0.6s;
+}
+.container .function button a:hover {
+  background-color: pink;
+}
+.container .login {
+  font-size: 6px;
+  border: none;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 16px;
+  margin-bottom: 24px;
+}
+.container .login:hover {
+  background-color: pink;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
